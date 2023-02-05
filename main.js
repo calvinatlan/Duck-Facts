@@ -19,10 +19,13 @@ async function start() {
     container.style.opacity = "0";
     setTimeout(() => {enter.remove();}, 1000);
     await timeout(3000);
+    duckFacts.style.visibility = "visible";
     duckFacts.style.opacity = "1";
     await timeout(5000);
+    factOne.style.visibility = "visible";
     factOne.style.opacity = "1";
     await timeout(6500);
+    duckBirds.style.visibility = "visible";
     duckBirds.style.opacity = "1";
 }
 
